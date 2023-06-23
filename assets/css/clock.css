@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+        /* Background Color */
+        --primary-color: #4458dc;
+        --secondary-color: #854fee;
+
+        /* Text Color */
+        --primary-text: #4458dc;
+        --secondary-text: #854fee;
+
+        /* Font Family */
+        --primary-font: 'Rubik', sans-serif;
+        --secondary-font: 'Roboto', sans-serif;
+}
+
+body{
+        font-family: var(--secondary-font);
+}
+
+.datetime {
+        color: var(--primary-color);
+        /* -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1)); */
+}
+
+.date {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+}
+
+.time {
+        font-size: 30px;
+        font-weight: 600;
+}
+
+.time span:not(:last-child) {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+}
+
+.time span:last-child {
+        background:var(--primary-color);
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0 5px;
+        border-radius: 3px;
+}

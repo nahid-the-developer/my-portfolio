@@ -1,0 +1,25 @@
+.navbar-brand {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand::after {
+    content: '';
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #F8F9FA;
+    z-index: 2;
+    animation: navbar-brand-anim 2s;
+}
+
+@keyframes navbar-brand-anim {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}

@@ -1,0 +1,128 @@
+@media only screen and (max-width: 991px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navv {
+        text-align: center;
+    }
+
+    .namespace {
+        padding: 0px;
+    }
+
+    .imgg {
+        margin-top: 200px;
+    }
+
+    .height {
+        margin-top: 25px;
+    }
+
+    .hireme {
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .cardd {
+        margin: 15px 0px;
+    }
+
+    .header_wrapper {
+        position: static;
+    }
+
+    .t-center {
+        text-align: center;
+    }
+
+    .w50 {
+        width: 100%;
+    }
+
+    .break {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .about-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .contactRight {
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .waviy {
+        margin-left: 10px;
+    }
+
+    .waviy span {
+        font-size: 3rem;
+    }
+
+    .date {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    .my-image {
+        height: 60vh;
+        margin-top: 20px;
+    }
+
+    .about-image {
+        margin: 100px 0px;
+    }
+
+    .about-btn {
+        justify-content: center;
+    }
+
+    .our-services {
+        margin-top: 150px;
+    }
+
+    .prot-d {
+        padding: 30px;
+    }
+
+    .prot-d:hover .overlay {
+        width: 88%;
+        height: 93%;
+    }
+
+    .testimonial,
+    #contact {
+        margin-top: 150px;
+    }
+
+    .rocket {
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+    .waviy br{
+        display: block;
+    }
+
+}
