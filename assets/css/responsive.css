@@ -2,6 +2,9 @@
     body{
         overflow-x: hidden;
     }
+    .preloader{
+        background-size: 15%;
+    }
     .navv {
         text-align: center;
     }

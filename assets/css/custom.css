@@ -35,7 +35,7 @@ body {
     font-family: var(--secondary-font);
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+   
 }
 .header_wrapper{
     z-index: 80;
